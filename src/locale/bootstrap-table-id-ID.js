@@ -5,10 +5,10 @@
 
 $.fn.bootstrapTable.locales['id-ID'] = $.fn.bootstrapTable.locales['id'] = {
   formatCopyRows () {
-    return 'Copy Rows'
+    return 'Salin Baris'
   },
   formatPrint () {
-    return 'Print'
+    return 'Cetak'
   },
   formatLoadingMessage () {
     return 'Memuat, mohon tunggu'
@@ -24,16 +24,16 @@ $.fn.bootstrapTable.locales['id-ID'] = $.fn.bootstrapTable.locales['id'] = {
     return `Menampilkan ${pageFrom} sampai ${pageTo} dari ${totalRows} baris`
   },
   formatSRPaginationPreText () {
-    return 'previous page'
+    return 'halaman sebelumnya'
   },
   formatSRPaginationPageText (page) {
-    return `to page ${page}`
+    return `ke halaman ${page}`
   },
   formatSRPaginationNextText () {
-    return 'next page'
+    return 'halaman berikutnya'
   },
   formatDetailPagination (totalRows) {
-    return `Showing ${totalRows} rows`
+    return `Menampilkan ${totalRows} baris`
   },
   formatClearSearch () {
     return 'Bersihkan filter'
@@ -48,10 +48,10 @@ $.fn.bootstrapTable.locales['id-ID'] = $.fn.bootstrapTable.locales['id'] = {
     return 'Sembunyikan/Tampilkan halaman'
   },
   formatPaginationSwitchDown () {
-    return 'Show pagination'
+    return 'Tampilkan pagination'
   },
   formatPaginationSwitchUp () {
-    return 'Hide pagination'
+    return 'Sembunyikan pagination'
   },
   formatRefresh () {
     return 'Muat ulang'
@@ -69,13 +69,13 @@ $.fn.bootstrapTable.locales['id-ID'] = $.fn.bootstrapTable.locales['id'] = {
     return 'Toggle all'
   },
   formatFullscreen () {
-    return 'Fullscreen'
+    return 'Satu layar penuh'
   },
   formatAllRows () {
     return 'Semua'
   },
   formatAutoRefresh () {
-    return 'Auto Refresh'
+    return 'Refresh Otomatis'
   },
   formatExport () {
     return 'Ekspor data'
@@ -87,7 +87,7 @@ $.fn.bootstrapTable.locales['id-ID'] = $.fn.bootstrapTable.locales['id'] = {
     return 'Advanced search'
   },
   formatAdvancedCloseButton () {
-    return 'Close'
+    return 'Tutup'
   },
   formatFilterControlSwitch () {
     return 'Hide/Show controls'
